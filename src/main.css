@@ -1,0 +1,193 @@
+.navbar_css {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2b3d5c;
+  padding: 5px 15% 5px 15%;
+}
+
+.searchBar {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  height: 10px;
+  margin-left: 10px;
+  width: 90%;
+}
+.menuIcons {
+  display: flex;
+  flex: 0.2;
+}
+.icon__search {
+  margin-left: -30px;
+}
+
+.homeIcon {
+  margin-left: 5px;
+}
+.home {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  margin-top: 20px;
+  padding: 0px 15% 0px 15%;
+}
+.leftPane {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  margin: 10px 10px 0 0;
+}
+.rightPane {
+  margin: 10px;
+  flex-direction: column;
+}
+.leftCard {
+  width: 100%;
+}
+.history,
+.signup {
+  padding: 0 10px;
+  width: max-content;
+}
+.askQuestionCard {
+  padding: 8px;
+}
+.textInput {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+.textInput > .MuiFormControl-root {
+  display: flex !important;
+  width: 100%;
+}
+.postBtn {
+  text-decoration: none;
+  border: none;
+  background-color: #2b3d5c;
+  color: whitesmoke;
+  border-radius: 20px;
+  font-size: 10px;
+  height: 25px;
+  padding: 0px 10px 0 10px;
+  margin-left: 10px;
+}
+
+.MuiFilledInput-underline:before,
+.MuiFilledInput-underline::after {
+  border-bottom: 0px !important;
+}
+.questionPane {
+  margin-top: 20px;
+}
+.userInfo {
+  display: flex;
+  flex-direction: row;
+}
+.userdetails {
+  display: flex;
+  flex-direction: column;
+  line-height: 0;
+  justify-content: flex-end;
+  padding: 10px;
+}
+.content {
+  padding: 5px;
+}
+.postbtmbar {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  justify-content: space-around;
+  align-content: center;
+}
+.likes,
+.comments {
+  display: flex;
+  flex-direction: row;
+  color: tomato;
+  padding: 15px 0 0 15px;
+}
+.commentBar {
+  width: 100%;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-left: 15px;
+}
+.commentBtn {
+  text-decoration: none;
+  border: none;
+  background-color: #2b3d5c;
+  color: whitesmoke;
+  border-radius: 20px;
+  font-size: 10px;
+  height: 25px;
+  margin-left: -70px;
+  justify-content: center;
+}
+.modalStyle {
+  background-color: whitesmoke;
+  padding: 5px;
+  border: none !important;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  outline: none;
+}
+.loginButton {
+  width: 100px;
+  text-decoration: none;
+  border: none;
+  background-color: tomato;
+  padding: 5px 15px 5px 15px;
+  color: whitesmoke;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  height: 30px;
+}
+
+.loginButton:disabled {
+  background-color: #cecece;
+  color: #2b3d5c;
+}
+.signupModal {
+  display: flex;
+  flex-direction: column;
+  flex: 0.6;
+  padding: 10px 20px 10px 20px;
+}
+.margin5 {
+  margin: 5px;
+}
+.loginModal {
+  flex: 0.38;
+  padding: 10px;
+}
+.signIcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #cecece;
+  width: 100%;
+  height: 90%;
+  padding: 10px;
+}
+.signIcard:hover {
+  -webkit-box-shadow: 0px 0px 20px -8px rgba(255, 131, 36, 1);
+  -moz-box-shadow: 0px 0px 20px -8px rgba(255, 131, 36, 1);
+  box-shadow: 0px 0px 20px -8px rgba(255, 131, 36, 1);
+}
